@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+</head>
+<body>
+    <h2>Personal form</h2>
+    <form action="backend.php">
+    <div>
+        Name<input type="text" name="my name" id="name">
+    </div>
+    <br>
+    <div>
+        Role:<input type="text" name="myrole" id="role">
+    </div>
+    <br>
+    <div>
+        Email:<input type="email" name="my email">
+    </div> 
+    <br>  
+    <div>
+        Date:<input type="date" name="my date" id="date">
+    </div> 
+    <br>
+    <div>
+        Bonus:<input type="number" name="my bonus">
+    </div>
+    <br>
+    <div>
+        Are you eligible?:<input type="checkbox" name="myeligible">
+    </div>
+    <br>
+    <div>
+     Gender Male:<input type="radio" name="mygrnder"> Female:<input type="radio" name="mygender"> Other:<input type="radio" name="mygender">
+    </div>
+    <br>
+    <div>
+       Write about yourself? <br><textarea name="mytext" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="Car">Car</label>
+        <select name="My Car" id="Car">
+            <option value="indica">Indica</option>
+            <option value="swift" selected>Swift</option>
+        </select>
+    </div>
+    <br>
+    <div>
+          <input type="button" value="Submit now">
+          <input type="button" value="Reset now">
+    </div>
+
+
+
+
+    </form>
+    
+</body>
+</html>
